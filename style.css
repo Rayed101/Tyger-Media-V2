@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+}
+
+/* Navbar */
+
+.nav{
+    width: 5.4rem;
+    height: calc(100vh - 2rem);
+    background-color: #FF843F;
+    margin: 1rem;
+    border-radius: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItemCont{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.navItemCont img{
+    width: 2.2rem;
+}
+
+.selectedNav{
+    background-color: white;
+    border-radius: 0.8rem;
+}
+
+.navItem{
+    width: 4.2rem; 
+    height: 3.7rem; 
+    display: flex; 
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.navItem:hover{
+    outline: 2px solid white;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.noHover:hover{
+    outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        position: fixed;
+        bottom: 0;
+        height: 7.8rem;
+        width: calc(100vw - 2rem);
+        flex-direction: row;
+    }
+
+    .navItemCont{
+        flex-direction: row;
+    }
+
+    .hideMobile{
+        display: none;
+    }
+}
+
+/* Fonts */
+
+h1 {
+position: absolute;
+width: 31.375rem ;
+height: calc(10vh - 2rem);
+left: 12.438rem;
+top: 2.6rem;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 2.563rem;
+line-height: 3.875rem;
+
+color: #000000;
+}
+
+.Condition-1 {
+    position: absolute;
+    text-align: left;
+    width: 15.563rem;
+    height: calc(9.7vh - 2rem);
+    left: 3.75rem;
+    /* top: 13.125rem; */
+    top: 65.1vh;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.063rem;
+    line-height: 1.625rem;
+    
+    color: #D10000;
+}
+
+.Condition-2 {
+    position: relative;
+    text-align: left;
+    width: 15.563rem;
+    height: calc(9vh - 2rem);
+    left: 3.75rem;
+    top: 40.15vh;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.063rem;
+    line-height: 1.625rem;
+    
+    color: #009C19;
+}
+
+
+.card-text-1, .card-text-2, .card-text-3 {
+    position: relative;
+    text-align: left;
+    width: 15.563rem;
+    height: calc(6vh - 2rem);
+    left: 3.75rem;
+    top: -0.938rem;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.063rem;
+    line-height: 1.625rem;
+    
+    color: #000000;
+}
+
+.cardy {
+    position: relative;
+    text-align: left;
+    width: 15.563rem;
+    height: calc(6vh - 2rem);
+    left: 3.75rem;
+    top: 9.563rem;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.063rem;
+    line-height: 1.625rem;
+    
+    color: #000000;
+}
+
+
+/* Company Cards */
+
+.card-body{
+    position: relative;
+    width: 22.5rem;
+    height: 44.563rem;
+    top: 0;
+    left: 0;
+    justify-content: center; 
+    align-items: center;
+}
+
+.card-1, .card-2{
+    position: absolute;
+    text-align: center;
+    width: 22.5rem;
+    height: calc(78vh - 2rem);
+    top: 30rem;
+    background: #FFFFFF;
+    box-shadow: 0rem 0rem 2.125rem rgba(0, 0, 0, 0.13);
+    border-radius: 0.875rem;
+}
+
+.card-1{
+    left: 12.125rem;
+    top: 10.6rem;
+}
+.card-2{
+    left: 37.125rem;
+    top: 10.6rem;
+}
+
+/* Nutshell Logo */
+.chobi {
+    position: relative;
+    top: 4.75rem;
+}
+
+/* Icons */
+i {
+    margin-right: 1.125rem;
+}
+
+
+/* Card frames */
+
+.frame-1, .frame-2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 19.313rem;
+    height: calc(70vh - 15rem);
+    top: 26.938rem;
+    
+    border: 0.125rem solid #FF843F;
+    filter: drop-shadow(0rem 0rem 2.125rem rgba(0, 0, 0, 0.13));
+    border-radius: 0.875rem;
+}
+
+.frame-1 {
+    left: 13.875rem;
+}
+.frame-2 {
+    left: 38.688rem;
+}
